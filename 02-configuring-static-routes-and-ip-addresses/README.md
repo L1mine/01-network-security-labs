@@ -18,6 +18,10 @@ After that, I added static routes on the routers so they could reach the other n
 
 I checked the interfaces with `show ip interface brief` and checked the routing tables with `show ip route`.
 
+![Router01](evidence/R1.png)
+![Router02](evidence/R2.png)
+![Router03](evidence/R3.png)
+
 ## 3. What happened?
 
 At first, the routers were working and the static routes were configured correctly, but PC1 could not ping PC2.
@@ -25,6 +29,8 @@ At first, the routers were working and the static routes were configured correct
 I checked the configuration and found that I had forgotten to set the default gateway on the PCs.
 
 After adding the correct gateways, I tested the connection again and PC1 was able to ping PC2 successfully.
+
+![test](evidence/ping-from-pc1-to-pc2.png)
 
 ## 4. Where did I make a mistake?
 

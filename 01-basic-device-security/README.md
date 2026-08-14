@@ -29,6 +29,9 @@ show running-config
 
 I also saved the running configuration to the startup configuration so the settings would not be lost after a reboot.
 
+![Router](evidence/R1.png)
+![Switch](evidence/SW1.png)
+
 ## 3. What happened?
 
 The devices were successfully configured with the security settings.
